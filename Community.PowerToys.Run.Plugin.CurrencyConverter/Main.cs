@@ -272,7 +272,9 @@ namespace Community.PowerToys.Run.Plugin.CurrencyConverter
                         {
                             toCurrency = toCurrencyCode;
                         }
+                    }
                 conversionRate = GetConversionRate(fromCurrency, toCurrency);
+                }
             }
             catch (Exception e)
             {
